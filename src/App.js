@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Fragment } from 'react';
+import Products from './pages/searchInput';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>testing</h1>
-    </div>
-  );
+    <Fragment>
+      <h1>Hello</h1>
+      <Products />
+    </Fragment>
+  )
 }
-
 export default App;
